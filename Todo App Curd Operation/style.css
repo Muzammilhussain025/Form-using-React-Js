@@ -1,0 +1,54 @@
+body{
+background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+#task-form{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+#task{
+    border-color: brown;
+    color: beige;
+    background-color: sandybrown;
+    width: 400px;
+    height: 40px;
+}
+.add{
+    background-color: greenyellow;
+    color: blue;
+    border-radius: 7px 0px 7px 0px ;
+}
+.added{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: yellowgreen;
+    width: 450px;
+    height: 40px;
+    
+}
+.heading{
+    font-weight: bolder;
+    color: blue;
+    
+}
+.btnedt{
+    background-color: rgb(0, 225, 255);
+    color: green;
+    border-radius: 10px;
+}
+.btndel{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+
+}
